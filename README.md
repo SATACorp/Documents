@@ -1,4 +1,4 @@
-# Documents
+# Design Specification
 
 Roles:
 - Anant Rajeev - CEO
