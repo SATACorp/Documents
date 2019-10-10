@@ -1,5 +1,5 @@
 # Priorties
-## Correctness	
+### Correctness	
 ## Reliability	
 ## Robustness	
 ## Performance	
