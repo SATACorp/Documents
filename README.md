@@ -1,6 +1,6 @@
 # Design Specification
 
-Roles:
+<h3>Roles:</h3>
 - Anant Rajeev - CEO
 - Sanjay Unni - CDO
 - Chris Forbes - PM 
