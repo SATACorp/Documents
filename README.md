@@ -17,7 +17,7 @@ Solution: Our team envisions utilizing an Instagram API to recreate the applicat
 
 Users will log into the application using the same credentials they would on the instagram app (IMG 1). Our service would use the instagram API to get the user's feed and relay it to them in a user friendly manner as shown in IMG 2. However, this feed would be modified to include "news posts" which are in the same format as as an instagram post. Once the user clicks on an instagram image post, the app will take the user into a mode where they can see the amount of likes and comments. however, if the user clicks on one of the news posts, it will take him/her to the actual article so they can read further. 
 
-<img src="./images/quiztab.jpeg" alt="quiz tab" width="450" height="500"> <img src="./images/rewards.jpeg" alt="rewards" width="450" height="500"> 
+<img src="./images/quiztab.jpeg" alt="quiz tab" width="400" height="500"> <img src="./images/rewards.jpeg" alt="rewards" width="400" height="500"> 
 
 
 As a method of analyzing success rate and seeing how well our application is fairing amongst our customers and how much they're learning, we intend to create a games/quizzes tab inside the application where users can go to take a quiz on what they've scrolled over. They have an opportunity to win points that they can potentially use to redeem prizes, therefore establishing an incentive for them to come back and use the application again. 
