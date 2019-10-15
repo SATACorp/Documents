@@ -1,7 +1,7 @@
 # Design Specification
 
 <h3>Roles:</h3>
-- Anant Rajeev - CEO
+- Anant Rajeev - CEO <br>
 - Sanjay Unni - CDO
 - Chris Forbes - PM 
 - Amogh Dave - CTO
