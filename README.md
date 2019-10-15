@@ -21,6 +21,3 @@ Users will log into the application using the same credentials they would on the
 
 
 As a method of analyzing success rate and seeing how well our application is fairing amongst our customers and how much they're learning, we intend to create a games/quizzes tab inside the application where users can go to take a quiz on what they've scrolled over. They have an opportunity to win points that they can potentially use to redeem prizes, therefore establishing an incentive for them to come back and use the application again. 
-
-
-According to Brandwatch.com, "the biggest demographic group are males between 18 – 24 years old, while 75% of all users are aged between 18 and 24." This problem space is important because the majority of the users that are on Instagram have just become of voting age and are at a pivotal stage in their lives to help influence voting decisions regarding the country's future. 
