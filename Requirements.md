@@ -1,5 +1,7 @@
 ## Requirements: 
 
+By: Anant Rajeev, Thomas Penner, Chris Forbes, Amogh Dave, Sanjay Unni
+
 * The system should be able to use the Instagram API to login the user using their credentials from the website itself 
  
 * User should be able to click on a picture to zoom into it and show the amount of likes and comments for the post. 
