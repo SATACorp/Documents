@@ -1,1 +1,6 @@
 ## Architecture
+### Models
+
+### Views
+
+### Controllers
