@@ -21,3 +21,5 @@
 
 
 <h3>Image Description:</h3> As a method of analyzing success rate and seeing how well our application is fairing amongst our customers and how much they're learning, we intend to create a games/quizzes tab inside the application where users can go to take a quiz on what they've scrolled over. In the game/quizzes tab (IMG 4), users can see the number of quizzes that're available and the number of ones they have completed. They can also see each quiz (and how many questions), search through them by alphabetical order, and view the new or completed ones. They have an opportunity to win points that they can potentially use to redeem prizes (IMG 5), therefore establishing an incentive for them to come back and use the application again. Users can also see what prizes they can redeem if they earn more points, again encouraging them to look at more news posts and participate in more quizzes.
+
+<img src="./images/userProfile.jpg" alt="user profile" width="280" height="500">
