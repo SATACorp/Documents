@@ -13,14 +13,17 @@
   <li> This component is a Model that stores all the quizzes that can be shown to the user and the results of each quiz that the user has submitted 
   <li> This component is only stored on the server
   <ol> The QuizController communicates with this Model
-    <li> 
-    <li>
-    <li>
+    <li> QuizController asks QuizModel to retrieve questions from the quiz
+    <li> QuizController asks QuizModel to retrieve results from the quiz (if the given answers are correct or not)
+    <li> QuizController asks QuizModel to update user points and the given answers to a quiz for each user 
+  </ol>
+<ol>LeaderboardModel
+  <li> This component is a Model that contains all the points for every user on the platform. It allows for users to see the top people on the leaderboard, their points, and how the current user stands compared to them
+  <li> this component is stored on the server, but it is called upon and kept in the memory on the client side 
+  <ol> The LeaderboardController communicates with the Model
+    <li> LeaderboardController asks LeaderboardModel to retrieve the points and users from the server
   </ol>
 </ol>
 
-1) QuizModel
-*  This component is a Model that stores all the quizzes that can be shown to the user and the results of each quiz that the user has submitted 
-* This component is only stored on the server
-* The QuizController communicates with this Model  
+
 
