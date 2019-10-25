@@ -18,7 +18,7 @@
     3. QuizController asks QuizModel to update user points and the given answers to a quiz for each user
 
 
-1. LeaderboardModel
+2. LeaderboardModel
   * This component is a Model that contains all the points for every user on the platform. It allows for users to see the top people on the leaderboard, their points, and how the current user stands compared to them 
   * this component is stored on the server, but it is called upon and kept in the memory on the client side
   * The LeaderboardController communicates with the Model
