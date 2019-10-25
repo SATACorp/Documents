@@ -9,6 +9,10 @@
 * Navigation buttons displayed on the Navbar
 * Buttons displayed on quiz
 
+1.QuizModel
+  *This component
+2. bla bla
+
 <ol>QuizModel
   <li> This component is a Model that stores all the quizzes that can be shown to the user and the results of each quiz that the user has submitted </li>
   <li> This component is only stored on the server </li>
