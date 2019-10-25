@@ -16,11 +16,14 @@
     1. QuizController asks QuizModel to retrieve questions from the quiz 
     2. QuizController asks QuizModel to retrieve results from the quiz (if the given answers are correct or not)
     3. QuizController asks QuizModel to update user points and the given answers to a quiz for each user
-2. LeaderboardModel
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+
+
+1. LeaderboardModel
+  * This component is a Model that contains all the points for every user on the platform. It allows for users to see the top people on the leaderboard, their points, and how the current user stands compared to them 
+  * this component is stored on the server, but it is called upon and kept in the memory on the client side
+  * The LeaderboardController communicates with the Model
+    1. LeaderboardController asks LeaderboardModel to retrieve the points and users from the server 
+  
 
 
 
