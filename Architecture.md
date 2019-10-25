@@ -1,14 +1,5 @@
 ## Architecture
 ### Models
-* Supported by an external online server, the data will reside mostly outside of the application.
-* State management handled within contextually within Main application component. Smaller components will be stateless
-### Views
-* The content displayed within the main user feed
-* Content displayed by the quizzes
-### Controllers
-* Navigation buttons displayed on the Navbar
-* Buttons displayed on quiz
-
 1. QuizModel
   * This component is a Model that stores all the quizzes that can be shown to the user and the results of each quiz that the user has submitted 
   * This component is only stored on the server 
@@ -23,6 +14,20 @@
   * this component is stored on the server, but it is called upon and kept in the memory on the client side
   * The LeaderboardController communicates with the Model
     1. LeaderboardController asks LeaderboardModel to retrieve the points and users from the server 
+    
+3. UserModel
+  * This component is a Model that contains all the relevant information about the user, including the user id, quiz points, list of articles read, and photo feed.
+  * this component is stored on the server, but it is called upon and kept in the memory on the client side
+  * The UserController communicates with the Model
+    1. UserController asks UserModel to retrieve the user information from the server
+    
+### Views
+* The content displayed within the main user feed
+* Content displayed by the quizzes
+### Controllers
+* Navigation buttons displayed on the Navbar
+* Buttons displayed on quiz
+
   
 
 
