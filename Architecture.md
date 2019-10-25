@@ -9,15 +9,15 @@
 * Navigation buttons displayed on the Navbar
 * Buttons displayed on quiz
 
-<ul>QuizModel
+<ol>QuizModel
   <li> This component is a Model that stores all the quizzes that can be shown to the user and the results of each quiz that the user has submitted 
   <li> This component is only stored on the server
-  <ul> The QuizController communicates with this Model
+  <ol> The QuizController communicates with this Model
     <li> 
     <li>
     <li>
-  </ul>
-</ul>
+  </ol>
+</ol>
 
 1) QuizModel
 *  This component is a Model that stores all the quizzes that can be shown to the user and the results of each quiz that the user has submitted 
