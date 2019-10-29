@@ -72,6 +72,9 @@
 * Login model communicates with the Instagram API to login the user and retrieve Instagram information
    1. Pre-condition: valid username and password is entered (user exists)
    2. Post-condition: retrieves user information, valid API usage
+   
+   
+ ###  Link to Source Code with code stubs: https://github.com/SATACorp/Application
 
 
 
