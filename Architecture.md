@@ -35,7 +35,7 @@
 * User Profile
 ### Controllers
 * Navigation buttons displayed on the Navbar
-   1. Username of poster
+   1. Username/icon of poster
    2. "Go To Article" button
    3. Caption expander
    4. Profile pics thumbnail
