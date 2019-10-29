@@ -67,15 +67,23 @@ public static int countOfRightAndWrongAnswers(String userAnswer) {
    }
    return countRight * 100;
 }
+
 * Quiz model updates the users points
    1. Pre-condition: User exists, user's point value is greater than or equal to 0, gets values from the comparison method 
    2. Post-condition: Increments user's point total based on the returned value from comparison method
    
-
-   
-* Leaderboard Model retrieves and sorts the top 3 highest scoring users and shows the user's leaderboard if not in the top 3 
+* Leaderboard model retrieves and sorts the top 3 highest scoring users and shows the user's leaderboard if not in the top 3 
    1. Pre-condition: 1 or more users exist 
    2. Post-condition: Sorts and displays top 3 users highest to lowest, keeping in account the user's score. If user is not a part of top 3 users, their ranking is displayed underneath the leaderboard with their points total. 
+
+* User model retrieves a user's information from the server
+   1. Pre-condition: user exists and has a valid id
+   2. Post-condition: returns user's personal data (id, points, articles read, feed)
+
+* Login model communicates with the Instagram API to login the user and retrieve Instagram information
+   1. Pre-condition: valid username and password is entered (user exists)
+   2. Post-condition: retrieves user information, valid API usage
+
 
 
 
