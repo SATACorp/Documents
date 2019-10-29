@@ -21,12 +21,63 @@
   * The UserController communicates with the Model
     1. UserController asks UserModel to retrieve the user information from the server
     
+4. LoginModel
+  * This component is a Model that communicates with the Instagram API to allow users to login to their Instagram using a third party application 
+  * Users interact with this model on the client side but the server sides hosts all the user's data via Instagram.
+  * The LoginController communicates with this Model
+    1. LoginController asks LoginModel to log the user in to the application given the right username and password 
+    
+    
 ### Views
 * The content displayed within the main user feed
 * Content displayed by the quizzes
+* Leaderboard with point totals for top 3 users + current user
+* User Profile
 ### Controllers
 * Navigation buttons displayed on the Navbar
 * Buttons displayed on quiz
+* Login button
+* Back arrows (to exit a quiz, exit out of a user profile that you've tapped on) 
+
+### Method Stubs
+* Quiz model retrieves a quiz's questions and answers
+   1. Pre-condition: Quiz exists, quiz has both questions and corresponding answers that aren't "NA"
+   2. Post-condition: Returns the answers
+  
+  public static Answer retrieval (List quizzes, Quiz quiz) {
+     if (!quizzes.contains(quiz)) { 
+        return "this doesn't work" 
+     } else {
+        return quiz.Answers;
+     }
+  }
+  
+* Quiz model takes in answers and compares those answers with the right answers that are stored in the backend and returns the results of that comparison
+   1. Pre-condition: Gets the answers from the retrieval method
+   2. Post-condition: Returns results based on an internal comparison between user's answers and the right answers that are stored, returns count of right answers
+   
+public static int countOfRightAndWrongAnswers(String userAnswer) {
+   List answers = retrieval(quizzes, quiz);
+   int countRight = 0;
+   int countWrong = 0;
+   for (String answer : quiz.Answers) {
+      if (answer.equals(userAnswer)) {
+         countRight++;
+      }
+   }
+   return countRight * 100;
+}
+* Quiz model updates the users points
+   1. Pre-condition: User exists, user's point value is greater than or equal to 0, gets values from the comparison method 
+   2. Post-condition: Increments user's point total based on the returned value from comparison method
+   
+
+   
+* Leaderboard Model retrieves and sorts the top 3 highest scoring users and shows the user's leaderboard if not in the top 3 
+   1. Pre-condition: 1 or more users exist 
+   2. Post-condition: Sorts and displays top 3 users highest to lowest, keeping in account the user's score. If user is not a part of top 3 users, their ranking is displayed underneath the leaderboard with their points total. 
+
+
 
   
 
