@@ -30,7 +30,7 @@
     
 ### Views
 1. The content displayed within the main user feed
-   * The main user feed will replicate that of Instagram's with recent posts from the user's followings in a scrollable fashion. After every 10th post that appears on the feed, there will be a clearly defined news post with a short summary of the information in the article. Users will have the option to click on the article to go to another website with the full story. 
+   * The main user feed will replicate that of Instagram's with recent posts from the user's followings in a scrollable fashion. After every 5th post that appears on the feed, there will be a clearly defined news post with a short summary of the information in the article. Users will have the option to click on the article to go to another website with the full story. 
 2. Content displayed by the quizzes
    * The quizzes view will contain available quizzes that the user can click on and take. Once a quiz is selected by the user, they will be prompted to answer questions based on that article, and will press "Submit." Upon completion of the quiz, the app will redirect to the initial quiz screen where they selected a quiz.  
 3. Leaderboard with point totals for top 3 users + current user
