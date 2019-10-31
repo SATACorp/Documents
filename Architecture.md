@@ -29,10 +29,15 @@
     
     
 ### Views
-* The content displayed within the main user feed
-* Content displayed by the quizzes
-* Leaderboard with point totals for top 3 users + current user
-* User Profile
+1. The content displayed within the main user feed
+   * The main user feed will replicate that of Instagram's with recent posts from the user's followings in a scrollable fashion. After every 10th post that appears on the feed, there will be a clearly defined news post with a short summary of the information in the article. Users will have the option to click on the article to go to another website with the full story. 
+2. Content displayed by the quizzes
+   * The quizzes view will contain available quizzes that the user can click on and take. Once a quiz is selected by the user, they will be prompted to answer questions based on that article, and will press "Submit." Upon completion of the quiz, the app will redirect to the initial quiz screen where they selected a quiz.  
+3. Leaderboard with point totals for top 3 users + current user
+   * The leaderboard view will contain a list of the top 3 application user's names and their scores, as well as accompanied by the current user's point total on the bottom of the screen. If the user is one of the top 3 users, then the last place user will have their points total be on the bottom of the screen. 
+4. User Profile
+   * The user profile view will include the user's name, number of followers, number of followings, and posts that they've made.
+
 ### Controllers
 * Navigation buttons displayed on the Navbar
    1. Username/icon of poster
