@@ -31,6 +31,8 @@
    * Alternatives: Text messaging, Facebook Messenger
    * Reason: We want to use a platform where we can keep our project discussions separate from other messaging platforms that we 
      use for personal use. This can help us in not being distracted during development. Slack also has integrations for sending         small snippets of code that can help us when we work remotely. We are also all familar with Slack.
+       * If someone is not able to be reached on Slack, we have our phone numbers shared so we can text first. IF that fails as well and that person has not come to class, we will call them using their phone number. 
+
  * **Google Sheets** will be used for documenting progress and completed components and tasks
    * Alternatives: Github Issues/Milestones, Trello
    * Reason: Again, all of us are familar with Google Sheets. While learning Github Issues and/or Trello may be beneficial for us       for industry standards, trying to learn how the platform works might slow down our progress.
