@@ -6,7 +6,7 @@
   * Chris Forbes (PM) will make sure that everyone is on task and that the tasks are being completed. To do this, he will be communicating with the CTOs and CDOs to make sure all the delegated tasks can be completed in an efficient and reasonable time frame.
   * Anant Rajeev (CEO) will ensure consistency among the tech and design teams as well as assist in the development.
 
-  Everyone has a key role in on our team. We laid out the roles accordingly so that everyone can be held accountable and will hold each other accountable for each other.
+  Everyone has a key role in on our team. We laid out the roles accordingly so that everyone can be held accountable and will hold each other accountable as well.
 
   ### Practices
   * We will be using Google Sheets to keep track of our tasks. Each task will be broken up by **component**, **task**, **assignee**, and a **rough deadline**. 
