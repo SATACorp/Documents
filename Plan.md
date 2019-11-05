@@ -36,7 +36,7 @@
    * Reason: Again, all of us are familar with Google Sheets. While learning Github Issues and/or Trello may be beneficial for us       for industry standards, trying to learn how the platform works might slow down our progress.
   
  ## Ownership
- * **We will be utilizing the waterfall method.** We have one general overall plan with set deadlines for certain goals. Based on this, the CTOs will be assigning all the components to each member based on their technical skill and the deadline it needs to be completed by. The CDO may also assign any external design work if needed. As it stands right now, while we have a deeper understanding of our architecture, we do not know the difficulty in developing each component. We collectively agreed that we should assign tasks as we go so we can account for any last minute situations as well as develop a better understanding of each person's skill.
+ * **We will be utilizing the waterfall method.** We have one general overall plan with set deadlines for certain goals. Based on this, the CTOs will be assigning all the components to each member based on their technical skill and the deadline it needs to be completed by. The CDO may also assign any external design work if needed. As it stands right now, while we have a deeper understanding of our architecture, we do not know the difficulty in developing each component. We collectively agreed that we should **assign tasks as we go** so we can account for any last minute situations as well as develop a better understanding of each person's skill.
 
  ## Timeline
  * Everyone to finish the React tutorial from Scrimba.com as a refresher - **Deadline: 11/4**
