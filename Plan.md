@@ -1,6 +1,6 @@
-### Plan
+# Plan
 ## Coordination
-# Roles
+### Roles
 * Thomas Penner and Amogh Dave (CTOs) will be in charge of delegating the technical componenets of our project to each member. The decisions will be made based on the the member's technical skill and the deadline on which the task or component must be completed.
 * Sanjay Unni (CDO) will be leading the design language of the app and will set deadlines for the iterative design components. He will also be in charge of any external vector design work and in delegating tasks for that.
 * Chris Forbes (PM) will make sure that everyone is on task and that the tasks are being completed. To do this, he will be communicating with the CTOs and CDOs to make sure all the delegated tasks can be completed in an efficient and reasonable time frame.
@@ -8,16 +8,16 @@
 
 Everyone has a key role in on our team. We laid out the roles accordingly so that everyone can be held accountable and will hold each other accountable for each other.
 
-# Practies
+### Practies
 * We will be using Google Sheets to keep track of our tasks. Each task will be broken up by **component**, **task**, **assignee**, and a **rough deadline**. 
 * If deadlines are ever altered through the course of development, the deadline will be marked in red to signify an altered dealine. This is to ensure that everyone is aware that an assignee needed to make a necessary adjustment, and to hold him accountable for completing his task by the new deadline.
 
 Google Sheets is a very user friendly platform and we're all familiar with it. We all collectively agreed this will work best for our team in terms of assigning and acknowledging the completion of tasks.
 
-# Weekly Meetings
+### Weekly Meetings
 * We will take advantage of the class meetings to complete the bulk of our work. We will also be meeting at least once a week outside of class (~1.5-2 hours)
 
-# Meeting Agenda
+### Meeting Agenda
 * 10 -20 minutes on updates from each member
 * Reassignment of tasks as necessary
 * Reassignment of deadlines as necessary
