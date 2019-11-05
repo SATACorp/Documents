@@ -49,8 +49,13 @@
  * Fine-tuning, problem solving, UX improvements, and small performance improvements - **Deadline: 12/5 RELEASE DATE**
 
  ## Verification
- * IF we make tests, they will cover our implementation of the Instagram API and the News API: ensuring the components concerned with this can call the APIs properly, grab information, manipulate that information with code, and display the desired information
- * IF there is a code inspection, because all of our components for the app are divided up, when one component in the app doesn’t render or stops working, that’s the component in the code that will be tested. 
+ * If we make tests, they will cover our implementation of the Instagram API and the News API: ensuring the components concerned with this can call the APIs properly, grab information, manipulate that information with code, and display the desired information.
+ 
+ * Reviews and inspections will be conducted each time we work on the writing of code. We will make sure that the components that we create are verified via our verification process below, and if before coding we notice that there is a deficiency in the application, we will look specifically at that component’s code and, as a team, analyze the code line-by-line together and determine where the error occurs. 
+ 
+ * As a team, we don’t intend on writing any proofs with respect to the components of the project. We will maintain verification through manual testing of different components, visual verification, and manual checking of proper and updated API access. 
+ 
+ * If there is a code inspection, because all of our components for the app are divided up, when one component in the app doesn’t render or stops working, that’s the component in the code that will be tested. 
 
    **Requirements and the Verification**
    * The app will have a consistent user experience by following the same design choices as the original Instagram app; our app will use the same typefaces, buttons, margins, shapes, icons, color palettes, text boxes, and other elements of visual design in all parts of the app.
