@@ -10,14 +10,16 @@
 
 
 2. LeaderboardModel
-  * This component is a Model that contains all the points for every user on the platform. It allows for users to see the top people on the leaderboard, their points, and how the current user stands compared to them 
+  * This component is a Model that displays the top people on the leaderboard, their points, and how the current user stands compared to them 
   * this component is stored on the server, but it is called upon and kept in the memory on the client side
+  * this component communicates with the UserModel to pull the current user's ID and points
   * The LeaderboardController communicates with the Model
-    1. LeaderboardController asks LeaderboardModel to retrieve the points and users from the server 
+    1. LeaderboardController asks LeaderboardModel to retrieve the top users' ID and points from the server 
     
 3. UserModel
   * This component is a Model that contains all the relevant information about the user, including the user id, quiz points, list of articles read, and photo feed.
   * this component is stored on the server, but it is called upon and kept in the memory on the client side
+  * this component communicates with the LeaderboardModel to display the current user's ID and points on the leaderboard
   * The UserController communicates with the Model
     1. UserController asks UserModel to retrieve the user information from the server
     
@@ -39,19 +41,26 @@
    * The user profile view will include the user's name, number of followers, number of followings, and posts that they've made.
 
 ### Controllers
-* Navigation buttons displayed on the Navbar
-   1. Username/icon of poster
-   2. "Go To Article" button
-   3. Caption expander
-   4. Profile pics thumbnail
-* Buttons displayed on quiz
-   1. Answer buttons
-   2. Submit button
-   3. Quiz icon
-* Login button
-* Back arrows
-   1. To exit a quiz
-   2. Exit out of a user profile that has been tapped/clicked on
+* QuizController
+   1. "Quizzes" button on footer will lead to quizzes tab
+      - Buttons displayed on quiz
+         * Quiz icon
+         * Back arrow
+         * Answer buttons
+         * Submit button
+* LeaderboardController
+   1. "Leaderboard" button on footer will lead to leaderboard tab
+      - Username/icon of poster
+* UserController
+   1. "Main Feed" button on footer will lead to main news feed
+      - "Go To Article" button
+      - Caption expander
+      - Back button
+   2. "Profile" button on footer will lead to user profile tab
+      - Profile pics thumbnail
+ * LoginController
+   1. Login button
+   2. Text entry areas (for username, password)
 
 ### Method Stubs
 * Quiz model retrieves a quiz's questions and answers
