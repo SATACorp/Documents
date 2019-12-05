@@ -30,11 +30,13 @@ By: Anant Rajeev, Thomas Penner, Chris Forbes, Amogh Dave, Sanjay Unni
     + Revised: our app is no longer connected to Instagram so we no longer show photo data (username, likes, comments) but we have kept the ability to go to the news article from the news post (which we simplified into a "read article" button)
 * An external web page will open once the user double taps or double clicks on the “Go to article” button next to a news feed.
     + Complete
+    + Revised: The button is called "Read Article", rather than "Go to article". It is present on the news component.
 * The user profile page will contain information about the user’s profile. It will show the username, the profile picture, and a grid view of the pictures the user has uploaded to Instagram in the past. It will also show the followers count, and following count of that particular user at the top of the screen.
     + Complete
     + Revised: our app is no longer connected to Instagram so it will not show Instagram user data but it does show our Firebase user data (username, profile picture, point count, leaderboard position)
 * The leaderboard page will display the top three quiz point holders descending from the top; it will display how the user currently ranks against them. It will show profile pictures, numerical rankings of the quiz holders, and the point counts of those quiz holders along with the user.
     + Complete
+    + Revised: We decided to show the top 10 point holders, rather than top 3.
 * The system should be able to scroll infinitely downward to allow the user to see more news posts and images from the user's Instagram feed.
     + Complete
     + Revised: our app is no longer connected to Instagram so no Instagram posts (i.e. photos) show up in the feed, but news posts still do
@@ -42,4 +44,9 @@ By: Anant Rajeev, Thomas Penner, Chris Forbes, Amogh Dave, Sanjay Unni
     + Revised: after removing the connection to Instagram in our app, we felt like this was not a necessary addition to the app and therfore not something we absolutely had to have
 * Interacting (clicking, tapping) on a news post will redirect the user to the external website with the full news article by opening up a new tab in the web browser and switch focus to that tab. 
     + Complete
-
+* Users will be able to create quizzes based on news articles. There will be a button placed on each news component that will prompt a form that allows users to fill out a form with questions and answers.
+    + New
+    + Complete
+* Users will be able to take quizzes that other users make. These will appear in the Quizzes tab. These quizzes will have a button that will prompt the quiz form when interacted with (clicking, tapping). Completion of the quiz will prompt a result with a score.
+    + New
+    + Complete
