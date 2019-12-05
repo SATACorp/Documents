@@ -7,6 +7,7 @@ By: Anant Rajeev, Thomas Penner, Chris Forbes, Amogh Dave, Sanjay Unni
     + <code>Revised</code>: our app is no longer connected to Instagram so it relies on its own custom-made design, but said design is consistent throughout
 * When the InstaNews web app is opened, the initial login page will be presented.
     + <code>Complete</code>
+    + <code>Revised</code>: App is now called SendNews
 * The login page will utilize Instagram’s login user interface through the Instagram API, in which the user will be able to login through Facebook or through their Instagram username and password.
     + <code>Complete</code>
     + <code>Revised</code>: our app is no longer connected to Instagram, but has a login/signup interface that relies on a user-made username and password, as well as email and a link to a profile photo.
