@@ -1,4 +1,4 @@
-## Link to Production App: # <a href="http://app-sendnews.herokuapp.com">app-sendnews.herokuapp.com<a>
+## Link to Production App: <a href="http://app-sendnews.herokuapp.com">app-sendnews.herokuapp.com<a>
 
 # Design Specification
 
