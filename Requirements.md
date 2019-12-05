@@ -9,7 +9,7 @@ By: Anant Rajeev, Thomas Penner, Chris Forbes, Amogh Dave, Sanjay Unni
     + <code>Complete</code>
 * The login page will utilize Instagram’s login user interface through the Instagram API, in which the user will be able to login through Facebook or through their Instagram username and password.
     + <code>Complete</code>
-    + <code>Revised</code>: our app is no longer connected to Instagram, but has a login/signup interface that relies on a user-made username and password
+    + <code>Revised</code>: our app is no longer connected to Instagram, but has a login/signup interface that relies on a user-made username and password, as well as email and a link to a profile photo.
 * On mobile, the navigation bar will be fixed at the bottom of the web page, taking up the width of the screen. On larger screens such as desktops, the navigation bar will be at the top of the screen and take up the width.
     + <code>Complete</code>
     + <code>Revised</code>: there were no functional changes by moving the navbar (did not change the scope or inherent             functionality of the app) and it was easier to code/design with it at the bottom, so we have it moved to the bottom of the      screen on all devices
