@@ -3,7 +3,7 @@
 By: Anant Rajeev, Thomas Penner, Chris Forbes, Amogh Dave, Sanjay Unni
 
 * The app will have a consistent user experience by following the same design choices as the original Instagram app; our app will use the same typefaces, buttons, margins, shapes, icons, color palettes, text boxes, and other elements of visual design in all parts of the app.
-        - Complete
+        * Complete
         Revised: our app is no longer connected to Instagram so it relies on its own custom-made design, but said design is consistent throughout
 * When the InstaNews web app is opened, the initial login page will be presented.
     -Complete
