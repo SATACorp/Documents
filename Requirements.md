@@ -7,7 +7,7 @@ By: Anant Rajeev, Thomas Penner, Chris Forbes, Amogh Dave, Sanjay Unni
     + <code>Revised</code>: our app is no longer connected to Instagram so it relies on its own custom-made design, but said design is consistent throughout
 * When the InstaNews web app is opened, the initial login page will be presented.
     + <code>Complete</code>
-    + <code>Revised</code>: App is now called SendNews
+    + <code>Revised</code>: App is not called InstaNews anymore
 * The login page will utilize Instagram’s login user interface through the Instagram API, in which the user will be able to login through Facebook or through their Instagram username and password.
     + <code>Complete</code>
     + <code>Revised</code>: our app is no longer connected to Instagram, but has a login/signup interface that relies on a user-made username and password, as well as email and a link to a profile photo.
@@ -42,7 +42,7 @@ By: Anant Rajeev, Thomas Penner, Chris Forbes, Amogh Dave, Sanjay Unni
     + <code>Complete</code>
     + <code>Revised</code>: our app is no longer connected to Instagram so no Instagram posts (i.e. photos) show up in the          feed, but news posts still do
 * Interacting (clicking, tapping) on a username should redirect to that user's profile page within the InstaNews app.
-    + <code>Revised</code>: after removing the connection to Instagram in our app, we felt like this was not a necessary            addition to the app and therfore not something we absolutely had to have
+    + <code>Revised</code>: after removing the connection to Instagram in our app, we felt like this was not a necessary            addition to the app and therfore not something we absolutely had to have. App is not called InstaNews anymore
 * Interacting (clicking, tapping) on a news post will redirect the user to the external website with the full news article by opening up a new tab in the web browser and switch focus to that tab. 
     + <code>Complete</code>
 * Users will be able to create quizzes based on news articles. There will be a button placed on each news component that will prompt a form that allows users to fill out a form with questions and answers.
